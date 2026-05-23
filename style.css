@@ -255,10 +255,6 @@ footer.main-footer a:focus-visible {
         padding: 0 2rem;
     }
 
-    /* .group-tracking img {
-        max-width: 85%;
-    } */
-
     section.tracking img,
     section.clipboard img {
         max-width: 85%;
@@ -285,8 +281,6 @@ footer.main-footer a:focus-visible {
             grid-template-columns: 1fr;
             gap: 2rem;
         }
-
-
     }
 
     @media (width < 610px) {
@@ -296,6 +290,23 @@ footer.main-footer a:focus-visible {
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        header h1 {
+            font-size: 1.75rem;
+        }
+
+        body h2 {
+            font-size: 1.5rem;
+        }
+        
+        body h3 {
+            font-size: 1.25rem;
+        }
+
+        body p {
+            font-size: 1rem;
+        }
+
         .group-flex-row {
             flex-direction: column;
         }
