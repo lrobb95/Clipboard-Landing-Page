@@ -302,8 +302,8 @@ footer.main-footer a:focus-visible {
     
      @media (width < 450px) {
         header h1 {
-            font-size: 2.125rem;
-            line-height: 2.75rem;
+            font-size: 2rem;
+            line-height: 2.5rem;
         }
 
         body h2 {
