@@ -301,9 +301,7 @@ footer.main-footer a:focus-visible {
      }
     
      @media (width < 450px) {
-        header h1 {
-            font-size: 1.75rem;
-            line-height: 2.125rem;
-        }
+        button {
+            padding: .35rem 3rem;
     }
 }
