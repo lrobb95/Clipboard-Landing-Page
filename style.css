@@ -305,20 +305,5 @@ footer.main-footer a:focus-visible {
             font-size: 1.75rem;
             line-height: 2.125rem;
         }
-
-        body h2 {
-            font-size: 1.25rem;
-            line-height: 1.75rem;
-        }
-        
-        body h3 {
-            font-size: 1rem;
-            line-height: 1.45rem;
-        }
-
-        body p {
-            font-size: .875rem;
-            line-height: 1.1rem;
-        }
     }
 }
