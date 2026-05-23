@@ -291,8 +291,18 @@ footer.main-footer a:focus-visible {
             background-size: cover;
         }
 
+        .group-flex-row {
+            flex-direction: column;
+        }
+
+        section {
+            text-align: center;
+        }
+     }
+    
+     @media (width < 450px) {
         header h1 {
-            font-size: 2rem;
+            font-size: 2.125rem;
             line-height: 2.75rem;
         }
 
@@ -308,14 +318,6 @@ footer.main-footer a:focus-visible {
         body p {
             font-size: .875rem;
             line-height: 1.1rem;
-        }
-
-        .group-flex-row {
-            flex-direction: column;
-        }
-
-        section {
-            text-align: center;
         }
     }
 }
