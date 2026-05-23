@@ -87,7 +87,7 @@ button.mac-download:focus-visible {
 
 section {
     margin-top: 5rem;
-    min-height: 100%;
+    /* min-height: 100%; */
 }
 
 section h2 {
@@ -170,6 +170,7 @@ section.workflow {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -186,6 +187,7 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 4rem;
 }
 
@@ -217,7 +219,11 @@ footer.main-footer {
     min-height: 8rem;
     background-color: rgba(189, 188, 188, .25);
     min-width: 100%;
-    padding: 0 2rem;
+    padding: 2rem;
+}
+
+.main-footer img {
+    max-width: 50px;
 }
 
 footer.main-footer a {
@@ -240,4 +246,52 @@ footer.main-footer a:focus-visible {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+@media (width < 1074px) {
+    section {
+        flex-direction: column;
+        max-width: inherit;
+        padding: 0 2rem;
+    }
+
+    /* .group-tracking img {
+        max-width: 85%;
+    } */
+
+    section.tracking img,
+    section.clipboard img {
+        max-width: 85%;
+    }
+
+    .group-tracking {
+        flex-direction: column;
+    }
+
+    article img {
+        min-width: 150px;
+    }
+
+    @media (width < 739px) {
+        .group-flex-row {
+            flex-direction: column;
+        }
+
+        .main-footer {
+            flex-direction: column;
+        }
+
+        .group-links {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+
+    }
+
+    @media (width < 610px) {
+        .group-flex-row {
+            flex-direction: column;
+        }
+    }
 }
