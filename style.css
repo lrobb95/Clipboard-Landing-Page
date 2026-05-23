@@ -290,8 +290,18 @@ footer.main-footer a:focus-visible {
     }
 
     @media (width < 610px) {
+        header {
+            background-image: url('./images/bg-header-mobile.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         .group-flex-row {
             flex-direction: column;
+        }
+
+        section {
+            text-align: center;
         }
     }
 }
